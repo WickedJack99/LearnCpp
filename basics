@@ -1,0 +1,39 @@
+Objectoriented programming:
+Code can be splitted into parts which can be reused again.
+Introduces classes and structures, from which objects can
+be created. Classes can contain functions which can be used
+specifically on objects of that class, to edit them.
+Makes it easier to administrate for example multiple soldiers,
+by creating multiple soldier-objects of class soldier.
+
+Standards:
+Standards are used to unify software-modules, so they can be
+used on all systems which are implementing those standards. 
+DIN -> Deutsches Institut fuer Normung
+ANSI -> American National Standards Institute
+STL -> Standard Template Library
+
+C++:
+C++ is a programming language used to programm. It is close to
+the system, which means that it is possible to influence the
+system in a very close way.
+SDK -> Software Development Kit
+Many SDKs are optimized for C++. It also implements a functionality
+called pointers, which point to an address, where some data is
+stored. They allow fast and efficient access on that data.
+It is one of the most used programming languages to create games.
+
+Preprocessor-commands:
+At compiling of programm-code, those commands marked with a hash #
+are processed first.
+
+Includes:
+Includes are preprocessor-commands which allow to include already
+existing code into your project. For example the iostream library
+contains code to read and write from and to console.
+If you want to include libraries from the working-directory, you
+have to use "lib" and the compiler will be looking there for the libs.
+If you want to use libraries from a special directory, specified by
+the include path of the compiler, you have to use <lib>.
+Example: #include <iostream>
+

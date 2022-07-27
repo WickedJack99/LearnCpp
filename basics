@@ -37,3 +37,35 @@ If you want to use libraries from a special directory, specified by
 the include path of the compiler, you have to use <lib>.
 Example: #include <iostream>
 
+Namespaces:
+Namespaces are named spaces, which can include functions and variables.
+They can help to seperate different modules with equal function- or variable-
+names. To use a function or variable of a specififc namespace use
+namespace::variablename or namespace::functionname. Namespaces help to avoid
+conflicts between modules which are programmed by different people.
+
+main-function:
+Every programm needs a main-function, which serves as the entrance-point of
+the programm. The main-function returns 0 if there was no error, as default
+we always return 0. The curled paranthesis {} mark the content of the function.
+
+cout:
+Function from library iostream at namespace std, which is used to print messages
+to the console.
+Example: cout << "Message" << endl;
+endl stands for end of line.
+
+Escape-signs:
+Escape-signs are used to display some special characters like spaces, tabs, etc.
+They can be used at strings (char-arrays) and are indicated by a backward-slash.
+Examples:
+\n -> Carriage Return
+\t -> horizontal tab
+\v -> vertical tab
+\r -> return to beginning of collumn
+\b -> jump back by one sign
+\" -> insert "-sign
+\\ -> insert backslash
+\a -> plays signal-sound
+
+Variables:

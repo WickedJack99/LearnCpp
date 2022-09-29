@@ -69,3 +69,31 @@ Examples:
 \a -> plays signal-sound
 
 Variables:
+There are so called primitive datatypes and abstract datatypes. Abstract datatypes
+are introduced with objectoriented programming in which objects are these abstract
+datatypes. They are consisting out of primitive datatypes.
+Primitive datatypes are numbers, characters or (void).
+There are so called type qualifiers which influence the range of values and the
+required memory to store the variable.
+But be aware, that also the compiler on which C is used, influences the required
+memory-usage.
+
+List is for 32bit gcc
+
+short int:              2 byte  -32,768 to 32,767               %hd
+unsigned short int:     2 byte  0 to 65,535                     %hu
+unsigned int:           4 byte  0 to 4,294,967,295              %u
+int:                    4 byte  -2,147,483,648 to 2,147,483,647 %d
+long int:               4 byte  -2,147,483,648 to 2,147,483,647 %ld
+unsigned long int:      4 byte  0 to 4,294,967,295              %lu
+long long int:          8 byte  -2^63 to 2^63-1                 %lld
+unsigned long long int: 8 byte  0 to 18,446,744,073,709,551,615 %llu
+
+signed char:            1 byte  -128 to 127                     %c
+unsigned char:          1 byte  0 to 255                        %c
+
+float:                  4 byte  1.2E-38 to 3.4E+38              %f
+double:                 8 byte  1.7E-308 to 1.7E+308            %lf
+long double:           16 byte  3.4E-4932 te 1.1E+4932          %Lf
+
+with the sizeof()-function you can check the size with your compiler.
